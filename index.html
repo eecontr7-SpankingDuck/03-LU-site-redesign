@@ -3,29 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Fran's Flowers | Boutique Flower Shop in San Francisco</title>
+
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
+
     <header>
       <div class="header-content">
-        <h1><span class="accent">Fran's</span> Flowers</h1>
-        <p class="tagline">Brightening San Francisco since 1995</p>
+
+        <div class="brand">
+          <h1><span class="accent">Fran's</span> Flowers</h1>
+          <p class="tagline">Brightening San Francisco since 1995</p>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#about">About</a>
+          <a href="#specials">Specials</a>
+          <a href="#seasonal">Seasonal Picks</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#visit">Visit Us</a>
+          <a href="about.html">About Fran</a>
+        </nav>
+
       </div>
     </header>
+
 
     <div id="hero-container">
       <img
         src="img/fran.png"
-        alt="Francine Miller, owner of Fran's Flowers"
+        alt="Francine Miller, owner of Fran's Flowers, surrounded by colorful flowers"
         class="hero-img"
       />
     </div>
 
+
     <main>
-      <section class="about-us">
+
+      <!-- ABOUT -->
+
+      <section class="about-us" id="about">
+
         <h2><span class="accent">About</span> Us</h2>
+
         <p>
           Fran's Flowers was founded in 1995 by Francine Miller to share joy,
           beauty, and connection with the Mission District of San Francisco.
@@ -34,59 +57,554 @@
           sale continues to fund efforts to fight homelessness across the Bay
           Area.
         </p>
-        <p>Thank you for helping us grow kindness one flower at a time.</p>
+
+        <p>
+          Thank you for helping us grow kindness one flower at a time.
+        </p>
+
+        <a href="about.html" class="learn-more">Learn more about Fran →</a>
+
       </section>
 
-      <section class="specials">
+
+      <!-- WEEKLY SPECIALS -->
+
+      <section class="specials" id="specials">
+
         <h2><span class="accent">Weekly</span> Specials</h2>
+
+        <p class="section-intro">
+          A few of Fran's favorite flowers and plants available this week.
+        </p>
+
         <div class="specials-list">
+
           <article class="special-offer">
-            <img src="img/potted_plant.png" alt="Ceramic Potted Herbs" />
+
+            <img
+              src="img/potted_plant.png"
+              alt="Fresh herbs growing in a ceramic pot"
+            />
+
             <h3>Ceramic Potted Herbs</h3>
+
             <p class="price-now">$7.99</p>
+
             <p class="price-was">Was $17.99</p>
+
           </article>
 
+
           <article class="special-offer">
-            <img src="img/wild_flowers.png" alt="Wildflower Explosion" />
+
+            <img
+              src="img/wild_flowers.png"
+              alt="Colorful wildflowers arranged in a vase"
+            />
+
             <h3>Wildflower Explosion</h3>
+
             <p class="price-now">$19.99</p>
+
             <p class="price-was">Was $29.99</p>
+
           </article>
 
+
           <article class="special-offer">
-            <img src="img/sunflowers.png" alt="Sunflower Delight" />
+
+            <img
+              src="img/sunflowers.png"
+              alt="Bright yellow sunflowers arranged in a decorative pitcher"
+            />
+
             <h3>Sunflower Delight</h3>
+
             <p class="price-now">$12.99</p>
+
             <p class="price-was">Was $19.99</p>
+
           </article>
+
         </div>
       </section>
 
-      <section class="visit-us">
-        <h2><span class="accent">Visit</span> Us</h2>
-        <div class="contact-info">
-          <p>Come in and say hi!</p>
-          <div class="address-block">
-            <address>123 Valencia Street, San Francisco, CA 94103</address>
+
+      <!-- SEASONAL PICKS -->
+
+      <section class="seasonal-picks" id="seasonal">
+
+        <h2><span class="accent">Seasonal</span> Picks</h2>
+
+        <div class="seasonal-card">
+
+          <div class="seasonal-image">
+            <img
+              src="img/wild_flowers.png"
+              alt="Colorful seasonal flower arrangement"
+            />
           </div>
-          <div class="phone-block">
-            <p>Call us at <a href="tel:+1234567890">123-456-7890</a></p>
+
+          <div class="seasonal-text">
+
+            <p class="small-label">Fran's Fall Pick</p>
+
+            <h3>Autumn Garden Bouquet</h3>
+
+            <p>
+              A colorful mix of warm seasonal flowers inspired by autumn in
+              Northern California. It works especially well as a birthday gift,
+              table centerpiece, or simple surprise for someone special.
+            </p>
+
+            <p class="seasonal-note">
+              Only here 'til October.
+            </p>
+
           </div>
+
         </div>
+
+      </section>
+
+
+      <!-- TESTIMONIALS -->
+
+      <section class="testimonials-section" id="testimonials">
+
+        <h2>
+          <span class="accent">Customer</span> Favorites
+        </h2>
+
+        <p class="section-intro">
+          A few kind words from people in our neighborhood.
+        </p>
+
+        <div class="testimonials">
+
+          <article class="testimonial">
+
+            <p class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </p>
+
+            <p class="testimonial-text">
+              "I always come to Fran's when I need something for a birthday or
+              special occasion. The arrangements always feel personal."
+            </p>
+
+            <p class="customer-name">
+              — Maria R.
+            </p>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <p class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </p>
+
+            <p class="testimonial-text">
+              "The flowers were fresh and the staff helped me put together a
+              beautiful bouquet without making the process complicated."
+            </p>
+
+            <p class="customer-name">
+              — Daniel T.
+            </p>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- VISIT US -->
+
+      <section class="visit-us" id="visit">
+
+        <h2><span class="accent">Visit</span> Us</h2>
+
+        <div class="contact-info">
+
+          <p>
+            Come in and say hi!
+          </p>
+
+          <div class="address-block">
+
+            <h3>Our Shop</h3>
+
+            <address>
+              123 Valencia Street,<br />
+              San Francisco, CA 94103
+            </address>
+
+          </div>
+
+
+          <div class="phone-block">
+
+            <h3>Give Us a Call</h3>
+
+            <p>
+              Call us at
+              <a href="tel:+1234567890">123-456-7890</a>
+            </p>
+
+          </div>
+
+
+          <div class="hours-block">
+
+            <h3>Hours</h3>
+
+            <p>
+              Monday - Saturday: 9 AM - 6 PM<br />
+              Sunday: 10 AM - 4 PM
+            </p>
+
+          </div>
+
+        </div>
+
+
         <iframe
+          title="Map showing the location of Fran's Flowers on Valencia Street"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.144965296929!2d-122.4230293!3d37.7689366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e3a37128e21%3A0xf85bfc7fef295b98!2s123%20Valencia%20St%2C%20San%20Francisco%2C%20CA%2094103!5e0!3m2!1sen!2sus!4v1722345678901!5m2!1sen!2sus"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+
       </section>
+
     </main>
 
+
+    <!-- FOOTER -->
+
     <footer>
+
       <div class="footer-content">
-        <p>&copy; 2025 Fran's Flowers LLC.</p>
-        <p>Brightening lives one flower at a time</p>
+
+        <div class="footer-about">
+
+          <h3><span class="accent">Fran's</span> Flowers</h3>
+
+          <p>
+            Brightening lives one flower at a time.
+          </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <h3>Quick Links</h3>
+
+          <a href="#about">About</a>
+
+          <a href="#specials">Specials</a>
+
+          <a href="#seasonal">Seasonal Picks</a>
+
+          <a href="#visit">Visit Us</a>
+
+        </div>
+
+
+        <div class="footer-social">
+
+          <h3>Follow Us</h3>
+
+          <a href="#">Instagram</a>
+
+          <a href="#">Facebook</a>
+
+          <a href="#">Pinterest</a>
+
+        </div>
+
       </div>
+
+
+      <div class="footer-bottom">
+
+        <p>&copy; 2026 Fran's Flowers LLC.</p>
+
+        <p>Serving San Francisco since 1995</p>
+
+      </div>
+
     </footer>
+
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About Fran | Fran's Flowers</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+
+    <header>
+      <div class="header-content">
+
+        <div class="brand">
+          <h1><span class="accent">Fran's</span> Flowers</h1>
+          <p class="tagline">Brightening San Francisco since 1995</p>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#specials">Specials</a>
+          <a href="index.html#seasonal">Seasonal Picks</a>
+          <a href="index.html#testimonials">Reviews</a>
+          <a href="index.html#visit">Visit Us</a>
+        </nav>
+
+      </div>
+    </header>
+
+
+    <main>
+
+      <!-- ABOUT FRAN HERO -->
+
+      <section class="about-fran-hero">
+
+        <div class="about-fran-photo">
+          <img
+            src="img/fran.png"
+            alt="Francine Miller, owner of Fran's Flowers, surrounded by colorful flowers"
+          />
+        </div>
+
+        <div class="about-fran-text">
+
+          <p class="small-label">Meet the Owner</p>
+
+          <h2><span class="accent">About</span> Fran</h2>
+
+          <p>
+            Francine Miller has always believed that flowers can change the
+            feeling of a room and make an ordinary day feel a little more
+            special.
+          </p>
+
+          <p>
+            In 1995, she opened Fran's Flowers in San Francisco with a simple
+            goal: create beautiful arrangements while building a flower shop
+            that feels welcoming to everyone who walks through the door.
+          </p>
+
+          <a href="index.html#specials" class="learn-more">
+            See this week's flowers →
+          </a>
+
+        </div>
+
+      </section>
+
+
+      <!-- FRAN'S STORY -->
+
+      <section class="fran-story">
+
+        <h2><span class="accent">Fran's</span> Story</h2>
+
+        <div class="story-columns">
+
+          <div>
+            <h3>How It Started</h3>
+
+            <p>
+              Fran's interest in flowers started long before the shop opened.
+              She grew up enjoying gardens, arranging flowers for family
+              gatherings, and learning how different colors and textures could
+              completely change an arrangement.
+            </p>
+
+            <p>
+              After years of creating bouquets for friends and family, Fran
+              decided to turn that interest into something bigger and opened
+              Fran's Flowers in the Mission District.
+            </p>
+          </div>
+
+
+          <div>
+            <h3>Still Growing</h3>
+
+            <p>
+              Today, Fran's Flowers continues to focus on fresh flowers,
+              thoughtful service, and strong ties to the local community.
+            </p>
+
+            <p>
+              Customers visit the shop for birthdays, anniversaries,
+              celebrations, thank-you gifts, and sometimes simply because
+              someone deserves flowers.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- VALUES -->
+
+      <section class="fran-values">
+
+        <h2><span class="accent">What</span> Matters to Fran</h2>
+
+        <div class="values-list">
+
+          <article class="value-card">
+
+            <p class="value-number">01</p>
+
+            <h3>Fresh Flowers</h3>
+
+            <p>
+              Every arrangement begins with flowers chosen for their color,
+              freshness, and quality.
+            </p>
+
+          </article>
+
+
+          <article class="value-card">
+
+            <p class="value-number">02</p>
+
+            <h3>Personal Service</h3>
+
+            <p>
+              Fran wants every customer to feel comfortable asking questions
+              and creating something that feels personal.
+            </p>
+
+          </article>
+
+
+          <article class="value-card">
+
+            <p class="value-number">03</p>
+
+            <h3>Community</h3>
+
+            <p>
+              Fran's Flowers continues to support the Bay Area community and
+              donates part of each sale toward efforts fighting homelessness.
+            </p>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- QUOTE -->
+
+      <section class="fran-quote">
+
+        <p>
+          “Flowers don't have to be saved for big occasions. Sometimes the best
+          reason to give someone flowers is simply because you were thinking
+          about them.”
+        </p>
+
+        <h3>— Fran</h3>
+
+      </section>
+
+
+      <!-- BACK TO SHOP -->
+
+      <section class="back-to-shop">
+
+        <h2>See What's Blooming</h2>
+
+        <p>
+          Take a look at this week's specials and seasonal flowers.
+        </p>
+
+        <a href="index.html#specials" class="shop-button">
+          Back to the Flower Shop
+        </a>
+
+      </section>
+
+    </main>
+
+
+    <footer>
+
+      <div class="footer-content">
+
+        <div class="footer-about">
+
+          <h3><span class="accent">Fran's</span> Flowers</h3>
+
+          <p>
+            Brightening lives one flower at a time.
+          </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <h3>Quick Links</h3>
+
+          <a href="index.html">Home</a>
+
+          <a href="index.html#about">About</a>
+
+          <a href="index.html#specials">Specials</a>
+
+          <a href="index.html#visit">Visit Us</a>
+
+        </div>
+
+
+        <div class="footer-social">
+
+          <h3>Follow Us</h3>
+
+          <a href="#">Instagram</a>
+
+          <a href="#">Facebook</a>
+
+          <a href="#">Pinterest</a>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <p>&copy; 2026 Fran's Flowers LLC.</p>
+
+        <p>Serving San Francisco since 1995</p>
+
+      </div>
+
+    </footer>
+
   </body>
 </html>
